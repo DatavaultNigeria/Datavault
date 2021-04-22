@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.bg-light {
+    background-color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 24px;
+    text-decoration: none;
+    color: #007FC5;
+}
+.btn-warning {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 130px;
+    margin-left: 20px;
+}
+.btn-warning:hover {
+    color: #fff;
+    background-color: #007FC5;
+    border-color: #25cff2;
+}
+
+.btn-outline-primary {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #0d6efd;
+    border-color: #0d6efd;
+    width: 130px;
+}
+.btn-info {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 130px;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #007FC5;
+    border-color: #25cff2;
+}
+
+.page-header {
+    margin-top: 8rem;
+    height: 100%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+h1 {
+    color: #007FC5;
+}
+.btn-warning::after {
+    color: #fff;
+    background-color: #ffcd39;
+    border-color: #fff
+}
