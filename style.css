@@ -17,6 +17,9 @@ body {
     text-decoration: none;
     color: #007FC5;
 }
+.col-md-6 p {
+    color: black;
+}
 .btn-warning {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -60,8 +63,7 @@ body {
 }
 
 .page-header {
-    margin-top: 8rem;
-    height: 100%;
+    padding-top: 8rem;
 }
 
 img, svg {
@@ -74,4 +76,202 @@ h1 {
     color: #fff;
     background-color: #ffcd39;
     border-color: #fff
+}
+div > img {
+    padding-left: 3rem;
+    padding-right: 2.2rem;
+}
+.output>img {
+    padding-left: 4rem;
+}
+.row > h3 {
+    color: #007FC5;
+    text-align: center;
+    padding: 4rem 0rem 1.7rem;
+    font-weight: bolder;
+}
+.line1 {
+    background-color: #e4e0e0;
+    height: 1px;
+    padding: 0rem 8rem;
+}
+.line2 {
+    background-color: #c5c4c4;
+    height: 1px;
+}
+div > p {
+    color: #888080;
+}
+div h3 {
+    color: #007FC5;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: bolder;
+}
+.testimony {
+    width: 70%;
+    justify-content: center;
+}
+.testimony > p {
+    color: black;
+    margin-left: 2rem;
+}
+.subscribe {
+    text-align: center;
+    background-color: #007FC5;
+}
+.subscribe h3 {
+    color: #fff;
+    width: auto;
+    margin: 0rem auto;
+    padding-bottom: .3rem;
+}
+span h3 {
+    padding-top: 0;
+}
+input {
+    width: 22rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+    margin-bottom: 1.5rem;
+    padding-left: .3rem;
+}
+input > a {
+    color: #fff;
+}
+.subscribe button {
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 7.5rem;
+    height: 2.5rem;
+    margin-left: -0.75rem;
+    border: 0;
+    border-radius: 0rem 0.2rem 0.2rem;
+}
+footer {
+    padding: 80px 32px 112px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 48px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.image > a img {
+    margin-bottom: 3rem;
+}
+.image > p {
+    color: black;
+}
+.fa-fw {
+    padding-right: 1rem;
+}
+h5, h4 {
+    font-weight: bolder;
+}
+.foot a {
+    color: black;
+    text-decoration: none;
+    line-height: 2.2rem;
+    font-size: .95rem;
+}
+.col-md-2 p {
+    text-align: center;
+}
+@media (max-width: 991px) and (min-width: 768px) {   
+.container {
+    max-width: 1200px;
+    }
+.col-md-6 {
+    width: 95%;
+    }
+    .col-img {
+        width: fit-content;
+    }
+    .col-md-6 > img {
+        width: min-content;
+        height: 32rem;
+        padding: 2rem 0rem;
+        margin: auto;
+    }
+    .col-md-2 {
+        flex: 0 0 auto;
+        width: 30%;
+        margin: 0rem .6rem;
+    }
+    .line1 {
+            display: none;
+    }
+    .line2 {
+            display: none;
+    }
+}
+@media (max-width: 767px) {
+    .col-md-6 > img {
+        width: inherit;
+        height: 32rem;
+        padding: 2rem 0rem;
+    }
+    .row > h3 {
+        padding: 2rem 0rem 1.2rem;
+    }
+    .btn-info {
+        font-weight: bold;
+        font-size: 1.1rem;
+        border-color: #ffc107;
+        width: 7.5rem;
+    }
+html,body {
+    font-size: 0.9rem;
+    }
+    .line1 {
+        display: none;
+    }
+    .line2 {
+        display: none;
+    }
+    .col-md-2 > img {
+        padding: 3rem 12.5rem 2rem;
+    }
+    .col-md-2 {
+        padding: 0rem 3rem;
+        width: min-content;
+    }
+    h4 {
+        text-align: center;
+    }
+    .testimony {
+        width: 90%;
+        justify-content: center;
+    }
+    .testimony > p {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        padding: 80px 32px 112px;
+        display: grid;
+        grid-template-columns: none;
+        grid-gap: 3rem;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .container a img {
+        width: 5.6rem;
+    }
+    footer a {
+        padding: 1rem;
+    }
+}
+@media (max-width: 676px) {
+    .col-md-2 > img {
+        padding: 3rem 12.5rem 2rem;
+    }
 }
