@@ -275,3 +275,8 @@ html,body {
         padding: 3rem 12.5rem 2rem;
     }
 }
+@media (max-width: 500px) {
+    .col-md-2 > img  {
+    padding: 3rem 3.5rem 2rem;
+    }
+}
