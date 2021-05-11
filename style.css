@@ -280,3 +280,20 @@ html,body {
     padding: 3rem 3.5rem 2rem;
     }
 }
+
+div#generate {
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 22rem;
+}   
+
+div#generate button {
+    border: none;
+    width: 9rem;
+    height: 2.2rem;
+    color: #007fc5;
+    font-weight: 800;
+    font-size: larger;
+    background-color: #b5b5b5;
+    border-radius: 2rem;
+}
