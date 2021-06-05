@@ -65,7 +65,67 @@
                           </a>
                 </div>  
                 <div class="col-md-6 col-img" ><img src="https://res.cloudinary.com/datavault/image/upload/v1619099291/Rectangle_24_nai3ar.png" height="450px" width="580px" alt="Datavault Team"></div>
-                <div class=""  id="generate"><a href="#"><button>Generate</button></a></div>
+                <div class=""  id="generate"><a href="#"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Generate</button></a></div>
+                  <!-- Modal -->
+                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Try generate a Market Research for XYZ Ltd.</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                     <div class="modal-body">
+                      <form>
+                        <div class="input-group">
+                          <div class="input-box">
+                            <input type="text" placeholder="Startup Name" required class="name">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                          </div>
+
+                          <div class="input-group">
+                            <div class="input-box">
+                              <input type="email" placeholder="Problem Statement" required class="name">
+                              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="input-group">
+                              <div class="input-box">
+                                <input type="text" placeholder="Solution Statement" required class="name">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                              </div>
+                          </div>
+
+                          <div class="input-group">
+                            <div class="input-box">
+                              <input type="text" placeholder="Total Addressable Market Name" required class="name">
+                              <i class="fa fa-lock" aria-hidden="true"></i>
+                            </div>
+                          </div>
+
+                          <div class="input-group">
+                            <div class="input-box">
+                              <input type="text" placeholder="Segment Addressable Market Name" required class="name">
+                              <i class="fa fa-lock" aria-hidden="true"></i>
+                            </div>
+                          </div>
+
+                          <div class="input-group">
+                            <div class="input-box">
+                              <input type="text" placeholder="Segment Addressable Market Name" required class="name">
+                              <i class="fa fa-lock" aria-hidden="true"></i>
+                            </div>
+                          </div>
+                        </div>
+                  
+                      </form>
+                      </div>
+                      <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-primary">Generate</button>
+                     </div>
+                   </div>
+                  </div>
+                </div>
             </div>
         </div>
       </header>

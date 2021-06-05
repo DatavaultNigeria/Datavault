@@ -183,6 +183,37 @@ h5, h4 {
 .col-md-2 p {
     text-align: center;
 }
+
+.fa:before {
+    position: absolute;
+    top: 12px;
+    left: .7rem;
+    color: #422f5e;
+}
+
+h5#staticBackdropLabel {
+    color: #007fc5;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.input-group input {
+    border: 2px solid #b5b5ab;
+    border-radius: 7px;
+    width: 35vw;
+    padding-left: 2rem;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid #dee2e6;
+    margin-bottom: -.5rem;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
 @media (max-width: 991px) and (min-width: 768px) {   
 .container {
     max-width: 1200px;
@@ -209,6 +240,10 @@ h5, h4 {
     }
     .line2 {
             display: none;
+    }
+
+    .input-group input {
+        width: 50vw;
     }
 }
 @media (max-width: 767px) {
@@ -269,6 +304,10 @@ html,body {
     footer a {
         padding: 1rem;
     }
+
+    /* .input-group input {
+        width: 50vw;
+    } */
 }
 @media (max-width: 676px) {
     .col-md-2 > img {
@@ -279,6 +318,29 @@ html,body {
     .col-md-2 > img  {
     padding: 3rem 3.5rem 2rem;
     }
+
+    .input-group input {
+        width: 80vw;
+    }
+}
+
+
+@media (max-width: 578px) and (min-width: 501px) {
+        .input-group input {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 579px) {
+    .input-group input {
+    width: 60vw;
+}
+}
+
+@media (max-width: 990px) and (min-width: 910px) {
+    .input-group input {
+    width: 45vw;
+}
 }
 
 div#generate {
